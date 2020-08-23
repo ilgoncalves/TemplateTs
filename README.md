@@ -1,11 +1,11 @@
 
 <!-- PROJECT SHIELDS -->
 
-[![npm](https://img.shields.io/npm/v/react-native-template-rocketseat-advanced.svg?label=npm%20package)](https://www.npmjs.com/package/react-native-template-rocketseat-advanced)
-[![npm](https://img.shields.io/npm/dt/react-native-template-rocketseat-advanced.svg)](https://www.npmjs.com/package/react-native-template-rocketseat-advanced)
+[![npm](https://img.shields.io/npm/v/react-native-template-aws-typescript.svg?label=npm%20package)](https://www.npmjs.com/package/react-native-template-aws-typescript)
+[![npm](https://img.shields.io/npm/dt/react-native-template-aws-typescript.svg)](https://www.npmjs.com/package/react-native-template-aws-typescript)
 [![GitHub issues](https://img.shields.io/github/issues-raw/rocketseat/react-native-template-rocketseat-advanced.svg)](https://github.com/Rocketseat/react-native-template-rocketseat-advanced/issues)
-[![GitHub last commit](https://img.shields.io/github/last-commit/rocketseat/react-native-template-rocketseat-advanced.svg)](https://github.com/Rocketseat/react-native-template-rocketseat-advanced/commits/master)
-[![NPM](https://img.shields.io/npm/l/react-native-template-rocketseat-advanced.svg)](https://choosealicense.com/licenses/mit)
+[![GitHub last commit](https://img.shields.io/github/last-commit/ilgoncalves/TemplateTs.svg)](https://github.com/ilgoncalves/TemplateTs/commits/master)
+[![NPM](https://img.shields.io/npm/l/react-native-template-aws-typescript.svg)](https://choosealicense.com/licenses/mit)
 
 <!-- PROJECT LOGO -->
 <br />
