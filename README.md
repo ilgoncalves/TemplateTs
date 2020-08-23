@@ -184,7 +184,14 @@ react-native init YourProjectName --template react-native-template-aws-typescrip
 ```
 3.Substitua o nome em app.json para o nome que você colocou no projeto.
 
-4.Depois do projeto criado você pode deletar o arquivo `App.js` da raiz, pois o arquivo `index.js` agora aponta para a pasta **src**.
+4.Rode o comando abaixo para linkar as fontes do projeto: 
+```sh
+react-native link
+```
+
+5.Depois do projeto criado você pode deletar o arquivo `App.js` da raiz, pois o arquivo `index.js` agora aponta para a pasta **src**.
+
+6.Abra o xcode; Clique no projeto no project navigator; Vá até a principal targe; Clique em Build Phases; vá em Copy Bundle Resources; Exclua todas as fontes dos ícones; Deixando apenas o LaunchScreen.storyboard, Images.xcassets e as fonts de texto do seu projeto, Ex: Roboto,etc.
 
 Com isso o projeto será criado com todas as dependências do template devidamente instaladas e linkadas, tal como os arquivos de configuração que são copiados para o projeto.
 
