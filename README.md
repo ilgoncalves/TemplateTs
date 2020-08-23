@@ -152,7 +152,7 @@ your-project-name
 react-native init YourProjectName --template AQUIIIIIIIIIIIIII
 ```
 
-3. adicione isso no seu package.json:
+2. adicione isso no seu package.json:
 
 ```json
 {
@@ -182,7 +182,7 @@ react-native init YourProjectName --template AQUIIIIIIIIIIIIII
   }
 }
 ```
-2. Depois do projeto criado você pode deletar o arquivo `App.js` da raiz, pois o arquivo `index.js` agora aponta para a pasta **src**.
+3. Depois do projeto criado você pode deletar o arquivo `App.js` da raiz, pois o arquivo `index.js` agora aponta para a pasta **src**.
 
 Com isso o projeto será criado com todas as dependências do template devidamente instaladas e linkadas, tal como os arquivos de configuração que são copiados para o projeto.
 
