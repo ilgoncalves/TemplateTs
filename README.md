@@ -149,7 +149,7 @@ your-project-name
 1. Para instalar e utilizar esse template o processo é bem simples, basta criar um projeto novo utilizando o comando:
 
 ```sh
-react-native init YourProjectName --template AQUIIIIIIIIIIIIII
+react-native init YourProjectName --template react-native-template-aws-typescript
 ```
 
 2. adicione isso no seu package.json:
