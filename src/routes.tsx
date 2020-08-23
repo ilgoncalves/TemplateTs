@@ -13,7 +13,7 @@ const Stack = createStackNavigator();
 const Routes: FC = () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator>
+      <Stack.Navigator headerMode='none'>
         <Stack.Screen
           name='Main'
           component={Main}

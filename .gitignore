@@ -63,3 +63,6 @@ buck-out/
 /ios/Pods/
 
 __tests__/
+
+ios/
+android/

@@ -1,6 +1,6 @@
-import { Alert } from 'react-native';
+// import { Alert } from 'react-native';
 import { AxiosResponse } from 'axios';
-import { takeLatest, put, call } from 'redux-saga/effects';
+import { takeLatest, put, call, delay } from 'redux-saga/effects';
 import { IGetUserPayload, IGetUserById, UserTypesEnum } from './types';
 import { UserActions } from './actions';
 import callApi from '~/services/api';
@@ -10,7 +10,7 @@ import { HttpMethodEnum } from '~/services/interfaces/Request';
 function* getUserById({ payload: { USR_Id } }: IGetUserById) {
   try {
     const params: IGetUserPayload = {
-      USR_Id
+      USR_Id,
     };
     const { data }: AxiosResponse<IUserData> = yield call(callApi, {
       endpoint: '/SomeEndpoint',
@@ -18,9 +18,10 @@ function* getUserById({ payload: { USR_Id } }: IGetUserById) {
       params,
     });
     yield put(UserActions.setUser(data));
-
-  } catch (err) {
-    Alert.alert('Error', 'Algo de errado aconteceu !');
+    yield delay(5000)
+  } catch (error) {
+    console.log('GET USER BY ID', { error })
+    // Alert.alert('Error', 'Algo de errado aconteceu !');
   }
 }
 
