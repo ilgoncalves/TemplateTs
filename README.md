@@ -182,7 +182,9 @@ react-native init YourProjectName --template react-native-template-aws-typescrip
   }
 }
 ```
-3. Depois do projeto criado você pode deletar o arquivo `App.js` da raiz, pois o arquivo `index.js` agora aponta para a pasta **src**.
+3.Substitua o nome em app.json para o nome que você colocou no projeto.
+
+4.Depois do projeto criado você pode deletar o arquivo `App.js` da raiz, pois o arquivo `index.js` agora aponta para a pasta **src**.
 
 Com isso o projeto será criado com todas as dependências do template devidamente instaladas e linkadas, tal como os arquivos de configuração que são copiados para o projeto.
 
